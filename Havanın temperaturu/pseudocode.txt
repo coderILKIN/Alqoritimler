@@ -1,0 +1,22 @@
+proplen: Havanin temperaturunun isti ve ya soyuq olmasi?
+
+giris t( temperatur) ədədi
+     t ədədi 0-a bərabərdimi?
+     ekrana yazdir "hava dondur"
+     əks halda t<15
+     ekrana yazdir "Hava soyuqdur"
+     əks halda t>15
+     ekrana yazdir "Hava istidir" .
+
+
+
+   START
+  input t 
+  if t==0:
+  print ("Hava dondur")
+     if t<15:
+     print("Hava soyuqdur")
+     else if t>15:
+     print("Hava istidir")
+
+
